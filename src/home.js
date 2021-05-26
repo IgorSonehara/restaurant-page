@@ -6,7 +6,7 @@ function createHome() {
     title.textContent = "Welcome!"
 
     const foodImage = document.createElement("img");
-    foodImage.src = '/dist/images/pexels-ready-made-4021955 (1).jpg';
+    foodImage.src = 'dist/images/pexels-ready-made-4021955.jpg';
     
     home.appendChild(title);
     home.appendChild(foodImage);
